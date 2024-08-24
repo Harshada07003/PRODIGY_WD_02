@@ -1,0 +1,43 @@
+body{
+    background-image: url("images/stopwatch.webp");
+    background-size: cover;
+    text-align:center ;
+    margin-top: 200px;
+    margin-right: 200px;
+    color: white;
+}
+h1 {
+    font-size: 52px;
+    margin-bottom: 40px;
+   
+  }
+  
+  #timer {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 30px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 0 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  #laps {
+    list-style: none;
+    padding: 0;
+}
+#laps li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+  button:hover{
+    border: 1px solid #FF7373;
+    color: #FF7373;
+    background: #fff;
+  }
